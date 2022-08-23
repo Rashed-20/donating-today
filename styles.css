@@ -1,0 +1,62 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+header img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.align {
+    position: absolute;
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(salmon, tomato);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.btn {
+    background-color: #ddd;
+    border: 1px solid black color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #eb1269;
+    color: white;
+    display: inline-block;
+}
+
+.size {
+    width: 500px;
+    padding-top: 30px;
+}
